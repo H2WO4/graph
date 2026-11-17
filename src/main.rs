@@ -15,7 +15,6 @@ fn main() {
     let mut plot = Plot::new();
     plot.set_layout(
         Layout::new()
-            .title("Results")
             .width(1280)
             .height(960)
             .x_axis(Axis::new().title("Size").type_(AxisType::Log))
@@ -25,7 +24,7 @@ fn main() {
     let colors = [
         NamedColor::Red,
         NamedColor::Blue,
-        NamedColor::BlueViolet,
+        NamedColor::Orange,
         NamedColor::Purple,
         NamedColor::Green,
         NamedColor::Yellow,
