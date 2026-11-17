@@ -1,0 +1,14 @@
+procs:
+  build:
+    shell: cargo build
+    autostart: false
+  copy:
+    shell: cp -f target/debug/graph .
+    autostart: false
+  build-release:
+    shell: cargo build --release
+    autostart: false
+  copy-release:
+    shell: cp -f target/release/graph .
+    autostart: false
+
